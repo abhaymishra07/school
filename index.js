@@ -11,9 +11,9 @@ window.addEventListener("scroll", function () {
     let schoolName = document.getElementById("school-name");
 
     if (window.scrollY > 400) {  // Change text when scrolled 50px down
-        schoolName.textContent = "VMRS";
+        schoolName.textContent = "V M R S";
     } else {
-        schoolName.textContent = "Vikky Mishra School";
+        schoolName.textContent = "VMRS Public School";
     }
 });
 
