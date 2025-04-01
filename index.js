@@ -10,10 +10,10 @@ window.addEventListener('scroll', function () {
 window.addEventListener("scroll", function () {
     let schoolName = document.getElementById("school-name");
 
-    if (window.scrollY > 400) {  // Change text when scrolled 50px down
-        schoolName.textContent = "V M R S";
+    if (window.scrollY > 100) {  // Change text when scrolled 50px down
+        schoolName.textContent = "V.M.R.S.";
     } else {
-        schoolName.textContent = "VMRS Public School";
+        schoolName.textContent = "V.M.R.S. Public School";
     }
 });
 
